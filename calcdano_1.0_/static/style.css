@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    color: aliceblue;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.nomejogo{
+    background-image: "static";
+    color: silver;
+    margin-top: 20px;
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    
+}
+.pl1{
+    color: royalblue;
+    margin-top: 10px;
+    display: flex;
+    margin-right: 30px;
+  
+}
+.pl2{
+    margin-left: 120px;
+    color: red;
+    margin-top: 10px;
+    display: flex;
+    margin-right: 30px;
+    
+}
+
+.box{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.alvos{
+    margin-top: 10px;
+    display: flex;
+    width: 600px;
+    height: 300px ;
+    margin-right: 30px;
+    justify-content: space-around;
+
+}
+.armas{
+    margin-top: 10px;
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin-left: 30px;
+    justify-content: space-around;
+
+}    
+#calcular{
+    font-weight: bolder;
+    padding: 20px;
+    border-radius: 200px;
+    margin-top: 120px;
+    height: fit-content;
+    color: rgb(8, 9, 10);
+    background-color: rgba(192, 192, 192, 0.467);
+}
+.per b{
+    padding: 10px;
+    border-radius: 200px;
+    color: rgb(8, 7, 7);
+    background-color: rgba(192, 192, 192, 0.467);;
+}
